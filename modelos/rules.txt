@@ -1,0 +1,10 @@
+Condiciones y reglas para el manejo de datos
+    Productos:
+        No se puede crear un producto sin ninguna clasificacion asignada
+        Al registrar un producto este debe inicializarse con 0 en cantidad
+        El precio de un producto nunca debe ser menor igual a 0
+        El nombre del producto no puede ser editado, en caso de querer cambiarlo se debe eliminar por completo
+        Al eliminarse la clasificacion de un producto este tambien sera eliminado instantaneamente
+        Es posible cambiar la clasificacion por una nueva
+
+        Producto_nombre = varchar(20)

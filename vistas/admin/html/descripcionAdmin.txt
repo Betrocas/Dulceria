@@ -1,0 +1,11 @@
+El admin podrá resolver las siguientes tareas:
+    *Prodcutos
+       Agregar, eliminar, editar y ver productos
+       Agregar stock de un producto
+    *Clientes
+        Ver clientes:
+            Solo sera capaz de ver sus datos 
+        Eliminar clientes
+    *Ventas:
+        Sera capaz de ver numero total de productos vendidos de un mismo elemento
+        Sera capaz de ver el reporte de venta 

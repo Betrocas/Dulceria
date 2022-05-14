@@ -1,0 +1,11 @@
+*Se le permite a cualquier cliente hacer la cantidad de compras que desee mientras tenga el 
+    saldo suficiente para poder realizar dicha transaccion
+*Para poder efectuar una compra el cliente primero debe de colocar los productos deseados 
+    en el carro de compra
+*Una vez que se realice la compra se consultaran los productos en el carro de compra y se 
+    vaciara a dicha entrada de la base de datos
+*Para que se pueda validar una compra todos los productos deseados deben estar disponibles
+*En caso que algún producto no se encuentre disponible o no haya suficiente en stock se 
+    debe de notificar al cliente y preguntar si desea eliminar dicho producto o detener 
+    la compra total
+*Se almacenaran unicamente 10 ordenes de compra por cliente, las 10 ultimas realizadas

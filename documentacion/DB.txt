@@ -1,0 +1,5 @@
+Usuarios(PK:Id,nombre,apellidos,contrasena,admin)
+Cliente(FK:Usuarios_Id,Saldo)
+Producto(PK:Nombre,Precio,cantidad,FK:ID_Clasificacion)
+Clasificacion(PK:Id,Nombre)
+Compra(PK:Id,Cantidad,FK:Nombre_Producto,FK:Id_Cliente)

@@ -1,0 +1,6 @@
+
+
+
+Los productos al ser eliminados por un administrador se deberan borrar completamente
+    de la base de datos, por lo tanto los clientes que hayan guardado dicho producto en 
+    su carrito de compra no podran visualizarlo mas
